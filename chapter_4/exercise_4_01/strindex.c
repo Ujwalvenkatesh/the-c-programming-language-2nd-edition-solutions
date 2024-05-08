@@ -52,7 +52,7 @@ int strindex(char source[], char pattern[])
 
     if (k > 0 && pattern[k] == '\0')
     {
-      return j+1; //the rightmost occurennce of pattern
+      return j; //the rightmost occurennce of pattern
       //return i;
     }
   }
